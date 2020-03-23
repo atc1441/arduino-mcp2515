@@ -261,7 +261,11 @@ Example implementation of CanHacker (lawicel) protocol based device: [https://gi
 
 For more information, please refer to [wiki page](http://www.seeedstudio.com/wiki/CAN-BUS_Shield) .
 
+Set or Release the RXbuf1 pin as GPO:
 
+    mcp2515.setPin(0b00001000);//turnRXbuf1 pin to GND
+    
+    mcp2515.setPin(0b00101000);//turnRXbuf1 pin to VCC
 ----
 
 This software is written by loovee ([luweicong@seeed.cc](luweicong@seeed.cc "luweicong@seeed.cc")) for seeed studio,<br>
