@@ -48,7 +48,7 @@ Component References:
 
 ## Library Installation
 
-1. Download the ZIP file from https://github.com/autowp/arduino-mcp2515/archive/master.zip
+1. Download the ZIP file from https://github.com/atc1441/arduino-mcp2515/archive/master.zip
 2. From the Arduino IDE: Sketch -> Include Library... -> Add .ZIP Library...
 3. Restart the Arduino IDE to see the new "mcp2515" library with examples
 
